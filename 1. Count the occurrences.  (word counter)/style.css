@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+/* h3{
+    display: block;
+    text-align: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;;
+    border-bottom: 1px solid black;
+    margin-top: 2rem;
+    padding-bottom: 10px;
+} */
+textarea{
+    padding: 10px 20px;
+    margin-top: 1rem;
+    background-color: rgb(175, 220, 247);
+    font-weight: 700;
+    border-radius: 10px;
+    text-transform: capitalize;
+
+}
+button{
+    height: 2rem;
+padding:5px 10px;
+background-color:green;
+color:white;
+width: 6rem;
+border-radius:25px;
+outline:none;
+cursor: pointer;
+border: none;
+
+
+}
+
+.Textcount{
+    border: 1px solid;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* styles to be applied to devices with screen width between 768 and 1024px */
+    textarea{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+
+    }
+    body{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+  }
+
+  @media screen and (min-width: 450px) and (max-width: 767px) {
+    /* styles to be applied to devices with screen width between 768 and 1024px */
+    textarea{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 3px;
+
+    }
+    body{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+  }
+  

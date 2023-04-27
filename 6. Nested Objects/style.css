@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(144, 238, 202);
+}
+p{
+    border: 0px solid lightblue;
+    margin-top: 5px;
+    text-align: center;
+    font-weight: 700;
+    padding: 10px 0px;
+    background-color:rgb(182, 135, 135);
+    border-radius:5px;
+}
